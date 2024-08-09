@@ -1,0 +1,191 @@
+# roadmaps.md
+
+Technologies i am confidient at 
+HTML 
+CSS
+BOOTSTRAP ? TAILWIND CSS 
+JAVASCRIPT 
+REACT JS 
+NODE JS little bit 
+GIT/GITHUB
+FLUTTER 
+C++ / C# -> 50% 
+DART 
+
+
+
+Learned and confident 
+- assign() 
+- closure -> using memory to save the variables 
+- curring 
+- lexical scope
+- higher order functions : can also return the function 
+- first class function 
+
+
+
+
+// things that are important to be noted for web developer 
+understand the curring , hoisting , closure , diff between let and var  
+DOM, BOM, CSSOM
+The event loop, microtask queue, macrotask queue and about their relation
+About Bundling
+
+
+MOVIE REVIEW APP -> full stack 
+FLUTTER -> HABIT APP
+MESSENGER APP -> full stack -> react js front and c# in the backend ?  wil try 
+
+
+
+Current Progress 
+javascrit book 
+. classes 
+
+
+
+CSS book 
+. relative units 
+
+
+
+Node JS 
+React JS 
+
+
+C# backend -> .net / game developer 
+
+
+
+# TIPS for CSS 
+
+em says "this size is part of a sizing system that is being implemented"
+
+rem says "this is proportional to the root size, and actively escaping all sizing systems"
+
+px says "this is explicitly unrelated to any font-sizes and just needs to be a fixed value that isn't part of any sizing-system"
+
+vw says "resizing the horizontal axis is the one most-likely to have the biggest side-effects in this code-block"
+
+vh says "resizing the vertical axis the the one most likely to have the biggest side-effects in this code-block
+
+% says "this is tightly coupled with the parent"
+
+ch says "this is explicitly related to the length of a word"
+
+//
+
+The CSS selector .panel > h2 is using a combination of class selection and the child combinator. Let's break it down:
+.panel: This selects any element with the class "panel".
+>: This is the child combinator. It selects only direct children of the specified parent element.
+h2: This selects all <h2> elements.
+When combined, .panel > h2 selects all <h2> elements that are direct children of elements with the class "panel".
+
+DIFFERENCES : 
+
+First-class functions:
+This is a feature of JavaScript that treats functions as values.
+Functions can be assigned to variables, passed as arguments to other functions, returned from functions, and stored in data structures.
+It's a characteristic of the language itself, not of individual functions.
+
+
+Higher-order functions:
+These are functions that operate on other functions.
+They either take one or more functions as arguments or return a function as their result, or both.
+Examples include map(), filter(), and reduce() in JavaScript.
+
+
+# RESOURCES 
+
+JS 
+https://javascript.info/ 
+
+
+
+NODE JS 
+
+-https://dev.to/nabroleonx/nodejs-roadmap-mastering-the-essentials-3o18#nodejs-fundamentals 
+
+CSS 
+
+
+advance JAVASCRIPT that i wanna achieve atleast 
+https://www.wearecapicua.com/blog/12-advanced-javascript-concepts 
+
+
+
+
+- advance concepts 
+Networking
+
+HTTP/2
+
+HTTP/3
+
+WebRTC
+
+WebTransport 
+
+
+Goal for tomorrow 
+- learn typescript basics 
+- do few css course and take note what i learned 
+- do js course continue ( modules -> currently )
+
+
+
+VERY VERY IMPORTANT 
+Using let:
+javascript
+let a = 2;
+let a = 5;
+console.log(a);
+
+This code will throw an error: "Identifier 'a' has already been declared"
+Why?
+let has block scope and does not allow re-declaration within the same scope.
+When you use let, you're telling JavaScript that you want to declare a new variable.
+Trying to declare the same variable name twice with let in the same scope is considered an error to prevent accidental re-declarations.
+Using var:
+javascript
+var a = 2;
+var a = 5;
+console.log(a); // Outputs: 5
+
+This code works without throwing an error.
+Why?
+var has function scope (or global scope if declared outside any function).
+var allows re-declaration of the same variable name within the same scope.
+In this case, the second var a = 5; is treated as a reassignment rather than a new declaration.
+Key Differences:
+Scope: let is block-scoped, while var is function-scoped.
+Hoisting: var declarations are hoisted (moved to the top of their scope), while let declarations are not.
+Re-declaration: var allows re-declaration in the same scope, let does not.
+Best Practice:
+In modern JavaScript, it's generally recommended to use let (for variables that will be reassigned) or const (for variables that won't be reassigned) instead of var. This helps prevent unintended re-declarations and makes the scope of your variables clearer. 
+
+const obj = {
+  name: 'brijesh'
+};
+
+console.log(delete obj); // This will log false. 
+- delete is use to delete the properties of the objects.
+
+
+
+
+
+
+deep copy 
+shallow copy 
+in JS 
+object references and copying 
+
+
+
+
+
+
+
+
+REACT -> REDUX  , REACT QUERY  

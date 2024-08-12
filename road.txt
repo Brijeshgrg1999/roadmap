@@ -181,7 +181,13 @@ shallow copy
 in JS 
 object references and copying 
 
-
+There are a few key points about object prototypes in JavaScript:
+All objects created using object literals ({}) have Object.prototype as their prototype. This is the default prototype for regular objects.
+Arrays created using array literals ([]) have Array.prototype as their prototype, which inherits from Object.prototype.
+Functions created using function declarations or expressions have Function.prototype as their prototype, which also inherits from Object.prototype.
+When you create an object using the new keyword with a constructor function, the object's prototype is set to the value of the constructor's prototype property.
+You can access an object's prototype using the __proto__ property (although this is deprecated) or the Object.getPrototypeOf() method.
+The top of the prototype chain is Object.prototype, which has a null prototype, indicating the end of the chain.
 
 
 

@@ -1,0 +1,177 @@
+confusion 
+-> how does .split() method works -> strict with the parameters , takes two arguments , a sperator and limit 
+
+Lexical Structure 
+
+    - case sensitiveity , spaces and line breaks 
+    - comments
+    - literals ( a data value that appears directly in a program )
+    - identifiersee and reserved words 
+    - unicode 
+    - optional semicolons 
+
+
+TYPES , VALUES  AND  VARIABLES 
+
+what does it meant by literals 
+- literals means fixed value in programming language 
+
+     -  numbers
+        - integer literals 
+        - floating-point literals 
+        - Arithmetic in js 
+            arithmetic operators 
+            ES6 defines more functions on the math object 
+        - Binary floating point and rounding errors
+           
+        - arbitary precision integers with bigint
+             - in ES 2020 a new numeric type known as BigInt 
+        - dates and times 
+            - a simple date class for represention and manipulating the numbers
+            that represent dates and times . 
+            - they are objects but they also have a numeric representation as a timestamp 
+
+    - Text 
+        - String Literals 
+        - Escape Sequences in String Literals 
+        - working with strings
+            .split()
+            .slice() 
+            .indexOf() 
+            .lastIndexof() 
+            .startsWith()
+            .endsWith() 
+            .includes() 
+            .replace()
+            .toLowerCase()
+            .toUppercase() 
+            .normalize() 
+            .charAt()
+            charCodeAt()
+            .codePointAt() 
+            .padStart() 
+            .padEnd()
+            .trim()
+            .trimStart()
+            .trimEnd() 
+
+        - Template literals ( done completed )
+            [[Explanation]]
+            - a special way to create a string in js that use backticks {``} instead of regular quotes 
+                key features 
+                1. interpolation : u can insert variables or expressions directly using ${ } 
+                2. multi line string : 
+                3. escape sequences : u can still use excape sequence like '\n' ; 
+
+        - pattern matching 
+
+
+    - Boolean Values
+        boolean value represents truth or false hood , on or off and yes or no . 
+
+
+
+
+    - null and undefined ( these behave like false when a boolean value is required )
+        - undefined means its declared but has not been assigned the value to it 
+        - null -> represents a special value that is usually used to indicate the absence of a value 
+
+        - undefined value represents a predefined global constant that is initialized to the undefined value 
+
+       So, the best way to understand "null" vs "undefined" is – Imagine you are on an online store and you see a t-shirt, you click on it and you are taken to the customize page. So, by default the color of the t-shirt is red, but you as developer want your customers to have "none" as default color so you will set the value of your variable to "null" in your code. This example can also be found in photo-editing softwares like "Photoshop" where you can select the color as none. "Null" clears the value of your variable and is only used by developers when you explicitly want to clear the value of a variable.
+
+
+"Undefined" is slightly different, it does not clear the value of the variable. It means you have simply not declared a value to your variable, and the first color available for t-shirt will be selected as the default color.
+
+    - symbols 
+    - The Global Object
+    - Immutable primitive Values and Mutable Object References 
+
+
+    - Type Conversions 
+        
+        in js it is a fundamental behaviour that occurs when different data types are used together in an operation. 
+
+        eg : console.log(10 + "string") ; 
+            here type coercion : javascript performs type coercion , automatic or implicit conversion of valies from one data type to another . 
+
+         # Why Does JavaScript Convert Types?
+
+            JavaScript has specific rules for type conversion based on the context of the operation. The + operator has different meanings depending on the types of the operands:
+
+                Addition: If both operands are numbers, it performs numerical addition.
+                String Concatenation: If one of the operands is a string, JavaScript treats the operation as string concatenation.
+      
+        - conversions and Equality 
+           - has two operators that test whether two values are equal 
+           - strict equality operator === use this while coding 
+           - equality operator == 
+
+
+        - Explicit Conversions 
+                - although js performs many type conversions auto matically , u need to do manually sometimes 
+
+        - Object to Primitive Conversions 
+
+    - Variable Declarations and assignment
+        - Declarations with let and const 
+        - Variable Declarations with var 
+        - Object to Primitive Conversions 
+
+
+EXPRESSIONS AND OPERATORS 
+
+    - Primary Expressions 
+    - object and Array initializers 
+    - function definition Expressions
+
+    - Property Access Expressions
+        - Conditional Property Access
+
+    - Invocation Expressions
+        - Conditional Property Access 
+
+    - Object Creation Expression 
+    - Operator Overview 
+        - Number of Operands 
+        - Operand and Result Type
+        - Operator Side Effects 
+        - Operator Precedence 
+        - Operator Associativity
+        - Order of Evaluation 
+
+    - Arithemetic Expression
+        - the + operator 
+        - Unary Arithemetic Operators
+        - Bitwise Operators 
+
+    - Relational Expressions 
+        - Equality and Inequality Operators
+        - comparision Operators
+        - The in Operators 
+        - The instanceof Operator 
+
+    - Logical Expression
+        - Logical AND ( && ) 
+        - Logical OR ( || ) 
+        - Logical NOT ( ! ) 
+    
+    - Assignment Expression 
+        - Assignment with Operation
+    
+    - Evaluation Expressions
+        - Eval() 
+        - Global eval() 
+        - Strict eval() 
+
+    - Miscellaneous Operators 
+        - The Conditional Operator ? : 
+        - first defined ?? 
+        - the typeOf Operator 
+        - delete 
+        - await 
+        - void 
+        - , operator 
+
+
+STATEMENTS 
